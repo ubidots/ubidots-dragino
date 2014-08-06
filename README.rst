@@ -15,7 +15,7 @@ First you'll need to install the Dragino library in your Arduino IDE and then pa
 Install the Library
 -------------------
 
-1. Download the library as a ZIP file here
+1. Download the library as a ZIP file: https://github.com/ubidots/ubidots-dragino/raw/master/Content/dragino.zip
 
 2. Open the Arduino IDE and go to "Sketch" --> "Import Library" --> "Add Library".
 
