@@ -1,9 +1,15 @@
-Ubidots-Dagino
+Ubidots-Dragino
 ===============
 
-Ubidots-Dragino is an Dragino library for interacting with Ubidots through its API. 
-The library contain, three LUA files and the library to Arduino IDE.
-First you need two steps, install the library and paste the lua files in the dragino root folder
+Ubidots-Dragino is a library to interact with the Ubidots API using Dragino MS14 products
+(http://www.dragino.com/products/mother-board.html) in conjunction with its "Arduino IoT Modules" (http://www.dragino.com/products/module.html).
+
+The Dragino is a versatile board that works as a gateway for most IoT applications. It ships with built-in WiFi and can be
+programmed using the Arduino IDE.
+
+This library contains three LUA files and the library to use with the Arduino IDE.
+
+First you'll need to install the Dragino library in your Arduino IDE and then paste the lua files in Dragino's root folder:
 
 
 Install the Library
@@ -20,14 +26,14 @@ Install the Library
 Add the LUA files to dragino
 ----------------------------
 
-1. Connect to dragino. In this wiki you can learn as http://wiki.dragino.com/index.php?title=Access_MS14
+1. Connect to dragino. This Wiki will help you do it: http://wiki.dragino.com/index.php?title=Access_MS14
 
 2. Go to the root directory and add the 3 LUA files.
 
 
 
 
-A Quick example
+A Quick Example
 ----------------
 Here's a quick example of how to use the library, with the serial terminal of Arduino:
 
@@ -37,9 +43,9 @@ Here's a quick example of how to use the library, with the serial terminal of Ar
   /*
   Simple example to Dragino
 
-  This sketch connects to Ubidots (http://www.ubidots.com) using an Dragino Hardware
+  This sketch connects to Ubidots (http://www.ubidots.com) using a Dragino Hardware
 
-  Is a simple example to explain the functions of the Dragino library
+  This is a simple example to explain the functions of the Dragino library
 
 
   Components:
@@ -59,7 +65,7 @@ Here's a quick example of how to use the library, with the serial terminal of Ar
 
 	
 
-	String api = "5ca9b10038e49e0492c6794f9043f0918ddcbd26";                    //your API key
+	String api = "5ca9b10038e49e0492c6794f9043f0918ddcbd26";                    //your Ubidots API key
 	String idvari = "53badbd77625425f8665d11b";                                 //this is de ID of the variaable that do you want to know
 	Ubidots ubiclient(api);                                                     //initializes the Ubidots library 
 
@@ -101,7 +107,7 @@ Type     Argument  Description
 String   api       Your API key for the Ubidots API
 =======  ========  =================================
 
-Initialize a Ubidots client. This is most likely to be the first Ubidots library function to call.
+Initializes a Ubidots client. This is most likely to be the first Ubidots library function to call.
 
 save_value()
 ````````````````````
@@ -115,7 +121,7 @@ String   idvari        ID of the variable to save
 String   incomingByte  The value of the sensor
 =======  ============  ====================================
 
-Save a value to Ubidots. Returns true upon success. Returns false upon error.
+Saves a value to Ubidots. Returns true upon success. Returns false upon error.
 
 
 get_value()
@@ -130,7 +136,7 @@ Type                Argument     Description
 String              idvari       ID of the variable that you want make request 
 ==================  ===========  =============================================
 
-Get value from Ubidots. Returns a String containing the last value of the variable.
+Gets value from Ubidots. Returns a String containing the last value of the variable.
 
 ubitoken();
 ``````````` 
