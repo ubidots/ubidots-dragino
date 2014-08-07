@@ -23,12 +23,12 @@ Install the Library
 
 
 
-Add the LUA files to dragino
+Add the LUA files to Dragino
 ----------------------------
 
-1. Connect to dragino. This Wiki will help you do it: http://wiki.dragino.com/index.php?title=Access_MS14
+1. Connect to your Dragino device. This Wiki will help you do it: http://wiki.dragino.com/index.php?title=Access_MS14
 
-2. Go to the root directory and add the 3 LUA files contained in this repository: "ubidots.lua", "ubidots_get.lua" and "ubidots_post.lua"
+2. Go to the root directory in Linux and add the 3 LUA files contained in this repository: "ubidots.lua", "ubidots_get.lua" and "ubidots_post.lua"
 
 
 
