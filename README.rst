@@ -15,7 +15,7 @@ First you'll need to install the Dragino library in your Arduino IDE and then pa
 Install the Library
 -------------------
 
-1. Download the library as a ZIP file: https://github.com/ubidots/ubidots-dragino/raw/master/Content/dragino.zip
+1. Download the library as a ZIP file: https://github.com/ubidots/ubidots-dragino/blob/master/Content/dragino.zip?raw=true
 
 2. Open the Arduino IDE and go to "Sketch" --> "Import Library" --> "Add Library".
 
@@ -28,7 +28,7 @@ Add the LUA files to dragino
 
 1. Connect to dragino. This Wiki will help you do it: http://wiki.dragino.com/index.php?title=Access_MS14
 
-2. Go to the root directory and add the 3 LUA files.
+2. Go to the root directory and add the 3 LUA files contained in this repository: "ubidots.lua", "ubidots_get.lua" and "ubidots_post.lua"
 
 
 
