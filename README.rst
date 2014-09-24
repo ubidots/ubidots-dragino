@@ -11,11 +11,23 @@ This library contains three LUA files and the library to use with the Arduino ID
 
 First you'll need to install the Dragino library in your Arduino IDE and then paste the lua files in Dragino's root folder:
 
+Components
+----------
+
+* `Dragino MS14 System Structure <http://www.dragino.com/products/mother-board/item/72-ms14-s.html>`_:
+
+* `M32W wireless Internet of Things module <http://www.dragino.com/products/module/item/84-m32w.html>`_:
+
+* 3 Lua files, those files are to get a token and post and get a value of your variable. 
+
+   -`Post Lua file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/ubidots_post.lua>`_
+   -`Get Lua file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/ubidots_get.lua>`_
+   -`API token Lua file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/ubidots.lua>`_
 
 Install the Library
 -------------------
 
-1. Download the library as a ZIP file: https://github.com/ubidots/ubidots-dragino/blob/master/Content/dragino.zip?raw=true
+1. `Download the library as a ZIP file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/dragino.zip?raw=true>`_
 
 2. Open the Arduino IDE and go to "Sketch" --> "Import Library" --> "Add Library".
 
@@ -26,9 +38,56 @@ Install the Library
 Add the LUA files to Dragino
 ----------------------------
 
-1. Connect to your Dragino device. This Wiki will help you do it: http://wiki.dragino.com/index.php?title=Access_MS14
+1. Connect your dragino to the power supply.
 
-2. Go to the root directory in Linux and add the 3 LUA files contained in this repository: "ubidots.lua", "ubidots_get.lua" and "ubidots_post.lua"
+2. Check there will be an unsecure wifi network start with Arduino Yun or Dragino - xxxxxxxxxxxx show in wifi connection.
+
+.. figure:: /content/yun_wifi.png
+    :name: dragino-wifi
+    :align: center
+    :alt: dragino-wifi
+
+3. Connect to this network and so we can enter 192.168.240.1 into the broswer and see the configure page of ms14. The default pass is "arduino".
+
+.. figure:: /_static/devices/yun_pass.jpg
+    :name: dragino-pass
+    :align: center
+    :alt: dragino-pass
+
+4. Once you are connected press "system".
+
+.. figure:: //devices/yun_system.jpg
+    :name: dragino-system
+    :align: center
+    :alt: dragino-system
+
+5. Connect dragino to your SSID and press "configure & restart". This may take several minutes.
+
+.. figure:: /_static/devices/yun_config.jpg
+    :name: dragino-config
+    :align: center
+    :alt: dragino-config
+
+6. Now you can see in the port tab of the Arduino IDE (1.5.7) the dragino with the IP. Takes note of this IP.
+
+.. figure:: /_static/devices/yun_ip.jpg
+    :name: dragino-ip
+    :align: center
+    :alt: dragino-ip
+
+7. Open WinSCP and place the IP that scored before, use SCP protocol, User: root and pass: arduino.
+
+.. figure:: /_static/devices/yun_winscp.jpg
+    :name: winscp
+    :align: center
+    :alt: winscp
+
+8. Now add the lua files in the root directory. 
+
+.. figure:: /_static/devices/yun_root.jpg
+    :name: dragino-root
+    :align: center
+    :alt: dragino-root
 
 
 
