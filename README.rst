@@ -42,7 +42,7 @@ Add the LUA files to Dragino
 
 2. Check there will be an unsecure wifi network start with Arduino Yun or Dragino - xxxxxxxxxxxx show in wifi connection.
 
-.. figure:: /content/yun_wifi.png
+.. figure:: https://github.com/ubidots/ubidots-dragino/blob/master/Content/yun_wifi.png
     :name: dragino-wifi
     :align: center
     :alt: dragino-wifi
