@@ -49,42 +49,42 @@ Add the LUA files to Dragino
 
 3. Connect to this network and so we can enter 192.168.240.1 into the broswer and see the configure page of ms14. The default pass is "arduino".
 
-.. figure:: /_static/devices/yun_pass.jpg
+.. figure:: https://github.com/ubidots/ubidots-dragino/blob/master/Content/yun_pass.jpg
     :name: dragino-pass
     :align: center
     :alt: dragino-pass
 
 4. Once you are connected press "system".
 
-.. figure:: //devices/yun_system.jpg
+.. figure:: https://github.com/ubidots/ubidots-dragino/blob/master/Content/yun_system.jpg
     :name: dragino-system
     :align: center
     :alt: dragino-system
 
 5. Connect dragino to your SSID and press "configure & restart". This may take several minutes.
 
-.. figure:: /_static/devices/yun_config.jpg
+.. figure:: https://github.com/ubidots/ubidots-dragino/blob/master/Content/yun_config.jpg
     :name: dragino-config
     :align: center
     :alt: dragino-config
 
 6. Now you can see in the port tab of the Arduino IDE (1.5.7) the dragino with the IP. Takes note of this IP.
 
-.. figure:: /_static/devices/yun_ip.jpg
+.. figure:: https://github.com/ubidots/ubidots-dragino/blob/master/Content/yun_ip.jpg
     :name: dragino-ip
     :align: center
     :alt: dragino-ip
 
 7. Open WinSCP and place the IP that scored before, use SCP protocol, User: root and pass: arduino.
 
-.. figure:: /_static/devices/yun_winscp.jpg
+.. figure:: https://github.com/ubidots/ubidots-dragino/blob/master/Content/yun_winscp.jpg
     :name: winscp
     :align: center
     :alt: winscp
 
 8. Now add the lua files in the root directory. 
 
-.. figure:: /_static/devices/yun_root.jpg
+.. figure:: https://github.com/ubidots/ubidots-dragino/blob/master/Content/yun_root.jpg
     :name: dragino-root
     :align: center
     :alt: dragino-root
