@@ -20,9 +20,9 @@ Components
 
 * 3 Lua files, those files are to get a token and post and get a value of your variable. 
 
-   -`Post Lua file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/ubidots_post.lua>`_
-   -`Get Lua file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/ubidots_get.lua>`_
-   -`API token Lua file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/ubidots.lua>`_
+   *`Post Lua file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/ubidots_post.lua>`_
+   *`Get Lua file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/ubidots_get.lua>`_
+   *`API token Lua file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/ubidots.lua>`_
 
 Install the Library
 -------------------
