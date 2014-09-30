@@ -22,7 +22,7 @@ Components
 
    * `Post Lua file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/ubidots_post.lua>`_
    * `Get Lua file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/ubidots_get.lua>`_
-   * `API token Lua file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/ubidots.lua>`_
+   * `API token Lua file <https://github.com/ubidots/ubidots-dragino/blob/master/Content/ubidots.lua?raw?true>`_
 
 Install the Library
 -------------------
